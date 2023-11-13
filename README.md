@@ -1,6 +1,7 @@
 探索创意世界：Ai 图像生成器
 ---
-https://buka.oumaiga.cn/
+演示网站
+https://ps.kokoo.cc/
 ---
 
 **导语：**
