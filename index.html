@@ -158,10 +158,10 @@
                 return;
             }
 
-            const api_url = 'https://x88888.top';
+            const api_url = 'https://api.openai.com/v1/images/generations';  
             const headers = {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + apiKey
+                'Authorization': 'Bearer ' + apiKey 
             };
             const data = {
                 "model": "dall-e-3",
@@ -188,7 +188,7 @@
                     `;
 
                 } else {
-                    console.error("错误:", response.status, response.statusText);
+                    console.error("错误:", response.status, response.statusText); 
                     imageContainer.innerHTML = `<p style="color: red;">图像生成失败 - ${response.status} ${response.statusText}</p>`;
                 }
             } catch (error) {
